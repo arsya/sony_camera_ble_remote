@@ -1,4 +1,3 @@
 # Sony Camera Bluetooth Remote
 
-[![Contributors][contributors-shield]][contributors-url]
-
+This Project Requires nRF Connect app.
