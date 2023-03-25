@@ -1,1 +1,4 @@
-# sony_camera_ble_remote
+# Sony Camera Bluetooth Remote
+
+[![Contributors][contributors-shield]][contributors-url]
+
