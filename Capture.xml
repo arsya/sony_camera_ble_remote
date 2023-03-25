@@ -1,0 +1,17 @@
+<macro name="Capture" icon="PLAY">
+   <assert-service description="Ensure 8000ff00-ff00-ffff-ffff-ffffffffffff service" uuid="8000ff00-ff00-ffff-ffff-ffffffffffff">
+      <assert-characteristic description="Ensure 0000ff01-0000-1000-8000-00805f9b34fb characteristic" uuid="0000ff01-0000-1000-8000-00805f9b34fb">
+         <property name="WRITE" requirement="MANDATORY"/>
+      </assert-characteristic>
+      <assert-characteristic description="Ensure 0000ff02-0000-1000-8000-00805f9b34fb characteristic" uuid="0000ff02-0000-1000-8000-00805f9b34fb">
+         <property name="NOTIFY" requirement="MANDATORY"/>
+      </assert-characteristic>
+   </assert-service>
+   <write description="Write 0x0107 to 0000ff01-0000-1000-8000-00805f9b34fb" characteristic-uuid="0000ff01-0000-1000-8000-00805f9b34fb" service-uuid="8000ff00-ff00-ffff-ffff-ffffffffffff" value="0107" type="WRITE_REQUEST"/>
+   <sleep description="Now the macro will wait 1 seconds..." timeout="1000" />
+   <write description="Write 0x0106 to 0000ff01-0000-1000-8000-00805f9b34fb" characteristic-uuid="0000ff01-0000-1000-8000-00805f9b34fb" service-uuid="8000ff00-ff00-ffff-ffff-ffffffffffff" value="0106" type="WRITE_REQUEST"/>
+   <sleep description="Now the macro will wait 0.5 seconds..." timeout="500" />
+   <write description="Write 0x0109 to 0000ff01-0000-1000-8000-00805f9b34fb" characteristic-uuid="0000ff01-0000-1000-8000-00805f9b34fb" service-uuid="8000ff00-ff00-ffff-ffff-ffffffffffff" value="0109" type="WRITE_REQUEST"/>
+   <sleep description="Now the macro will wait 1 seconds..." timeout="1000" />
+   <write description="Write 0x0108 to 0000ff01-0000-1000-8000-00805f9b34fb" characteristic-uuid="0000ff01-0000-1000-8000-00805f9b34fb" service-uuid="8000ff00-ff00-ffff-ffff-ffffffffffff" value="0108" type="WRITE_REQUEST"/>
+</macro>
