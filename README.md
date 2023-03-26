@@ -32,7 +32,7 @@ What you need to do is:
 7. Tap on download button, and select Capture.xml/Record.xml file.
 8. Run "Capture/Toggle Record" macro to test.
 
-
+## Additional Info
 Thanks to [Greg Leeds](https://gregleeds.com/reverse-engineering-sony-camera-bluetooth/) for reverse engineering these bluetooth remote commands.
 
 | Code	    | Description     |
