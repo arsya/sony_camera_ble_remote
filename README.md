@@ -15,7 +15,7 @@ The xml in this project contains macros for nRF Connect App. It uses only the fo
 
 
 What you need to do is:
-1. Install nRF Connect App.
+1. Install [nRF Connect App](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=en).
 2. Download Capture.xml and store it on your device.
 3. Pair you camera with your device.
 4. Open nRF Connect App
