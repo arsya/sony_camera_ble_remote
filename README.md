@@ -14,6 +14,11 @@ The xml in this project contains macros for nRF Connect App. It uses only the fo
 | 0x0108	| Shutter Up      |
 
 
+There are two xml files:
+1. Capture.xml: to take picture.
+2. Record.xml: to record video. 
+
+
 What you need to do is:
 1. Install [nRF Connect App](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=en).
 2. Download Capture.xml/Record.xml and store it on your device.
