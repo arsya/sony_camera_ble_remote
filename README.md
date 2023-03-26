@@ -13,6 +13,7 @@ The xml in this project contains macros for nRF Connect App. It uses only the fo
 | 0x0109	| Shutter Down    |
 | 0x0108	| Shutter Up      |
 
+
 What you need to do is:
 1. Install nRF Connect App.
 2. Download Capture.xml and store it on your device.
