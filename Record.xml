@@ -7,7 +7,7 @@
          <property name="NOTIFY" requirement="MANDATORY"/>
       </assert-characteristic>
    </assert-service>
-   <write description="Write 0x0107 to 0000ff01-0000-1000-8000-00805f9b34fb" characteristic-uuid="0000ff01-0000-1000-8000-00805f9b34fb" service-uuid="8000ff00-ff00-ffff-ffff-ffffffffffff" value="010f" type="WRITE_REQUEST"/>
+   <write description="Write 0x010f to 0000ff01-0000-1000-8000-00805f9b34fb" characteristic-uuid="0000ff01-0000-1000-8000-00805f9b34fb" service-uuid="8000ff00-ff00-ffff-ffff-ffffffffffff" value="010f" type="WRITE_REQUEST"/>
    <sleep description="Now the macro will wait 1 seconds..." timeout="1000" />
-   <write description="Write 0x0109 to 0000ff01-0000-1000-8000-00805f9b34fb" characteristic-uuid="0000ff01-0000-1000-8000-00805f9b34fb" service-uuid="8000ff00-ff00-ffff-ffff-ffffffffffff" value="010e" type="WRITE_REQUEST"/>
+   <write description="Write 0x010e to 0000ff01-0000-1000-8000-00805f9b34fb" characteristic-uuid="0000ff01-0000-1000-8000-00805f9b34fb" service-uuid="8000ff00-ff00-ffff-ffff-ffffffffffff" value="010e" type="WRITE_REQUEST"/>
 </macro>
